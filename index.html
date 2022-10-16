@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title >Random user</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styling.css">
+</head>
+
+<body style="background:linear-gradient(-90deg, rgb(11, 1, 45),rgb(76, 46, 209),rgb(201, 22, 22))" >
+    <div class="container">
+        <br>
+        <div style="background-color:rgb(227, 227, 230);block-size: 200px;color:white; text-align: center;" class="jumbotron">
+            <h1 style="border-radius: 12px; border-style:inset;padding: 5px;box-shadow:5px 5px rgb(98, 6, 96) inset;color:rgb(203, 66, 7);font-family:Lucida Handwriting;text-shadow:2px 2px 4px rgb(57, 42, 140);">Random User Generator </h1>
+        </div>
+        <div class="radio" value="male" name="gender" style="color:rgb(222, 232, 232);font-size: 17px;font-family: Lucida Handwriting;">Male</label> <i style="font-size:24px;color:rgb(247, 239, 239)" class="fa">&#xf183;</i> 
+            <label><input type="radio" value="male" name="gender" checked></label>
+        </div>
+        <br>
+        <div class="radio"  value="female" name="gender" style="color:rgb(237, 231, 231);font-size: 17px;font-family: Lucida Handwriting;">Female</label> <i style="font-size:24px" class="fa">&#xf182;</i> 
+            <label><input type="radio" value="female" name="gender"></label>
+        </div>
+        <br>
+        <div class="radio" value="all" name="gender" style="color:rgb(239, 235, 235);font-size: 17px;font-family: Lucida Handwriting;">All</label> <i style="font-size:24px" class="fa">&#xf183;</i><i style="font-size:24px" class="fa">&#xf182;</i>
+            <label><input type="radio" value="all" name="gender"></label>
+        </div>
+        <br>
+        <div class="form-group" style="color:rgb(241, 241, 241);font-size: 17px;font-family: Lucida Handwriting;">
+
+            <label for="sel1" style="color:rgb(235, 235, 240)">Select Nationality:</label>
+            <select class="form-control" id="nationality">
+                <option>AU</option>
+                <option>BR</option>
+                <option>CA</option>
+                <option>CH</option>
+                <option>DE</option>
+                <option>DK</option>
+                <option>ES</option>
+                <option>FI</option>
+                <option>FR</option>
+                <option>GB</option>
+                <option>IR</option>
+                <option>IE</option>
+                <option>NO</option>
+                <option>NL</option>
+                <option>NZ</option>
+                <option>TR</option>
+                <option>US</option>
+            </select>
+        </div>
+        <div style="border-radius: 12px; border-style:inset;padding: 5px;box-shadow:5px 5px rgb(83, 95, 107) inset;" id="result"></div>
+    </div>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html
